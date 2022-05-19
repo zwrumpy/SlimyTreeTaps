@@ -41,7 +41,7 @@ public class TreeTaps extends JavaPlugin implements SlimefunAddon {
 		SlimefunItemStack treeTap = new SlimefunItemStack("TREE_TAP", Material.WOODEN_HOE, "&6Tree Tap", getLore("Resin", cfg.getInt("resin-chance.standard")));
 		SlimefunItemStack reinforcedTreeTap = new SlimefunItemStack("REINFORCED_TREE_TAP", Material.IRON_HOE, "&6Reinforced Tree Tap", getLore("Resin", cfg.getInt("resin-chance.reinforced")));
 		SlimefunItemStack diamondTreeTap = new SlimefunItemStack("DIAMOND_TREE_TAP", Material.DIAMOND_HOE, "&bDiamond Tree Tap", getLore("Resin", cfg.getInt("resin-chance.diamond")));
-		SlimefunItemStack treeScraper = new SlimefunItemStack("TREE_SCRAPER", Material.GOLDEN_SHOVEL, "&bTree Scraper", getLore("Amber", cfg.getInt("amber-chance")));
+		SlimefunItemStack treeScraper = new SlimefunItemStack("TREE_SCRAPER", Material.STONE_SHOVEL, "&bTree Scraper", getLore("Amber", cfg.getInt("amber-chance")));
 
 		clearAttributes(treeTap, reinforcedTreeTap, diamondTreeTap, treeScraper);
 		
